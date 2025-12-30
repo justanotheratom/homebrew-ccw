@@ -1,6 +1,6 @@
 cask "ccw-menubar" do
-  version "0.1.52"
-  sha256 "8b3ccb7fbd4275409aa8be66bb15825d73657c0f3b2a0ce84a13064a175978e1"
+  version "0.1.53"
+  sha256 "2b98848f0ae3ed6c1286c7343a6b362a1dbaf45d3ffc86bf72647a63a3b08e04"
 
   url "https://github.com/justanotheratom/ccw/releases/download/v#{version}/CCWMenubar.dmg"
   name "CCW Menubar"
@@ -8,6 +8,7 @@ cask "ccw-menubar" do
   homepage "https://github.com/justanotheratom/ccw"
 
   app "CCWMenubar.app"
+  binary "#{appdir}/CCWMenubar.app/Contents/MacOS/ccw", target: "ccw"
 
   zap trash: [
     "~/.ccw",
