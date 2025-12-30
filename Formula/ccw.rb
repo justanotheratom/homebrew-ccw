@@ -1,25 +1,25 @@
 class Ccw < Formula
   desc "Claude Code Workspace manager"
   homepage "https://github.com/justanotheratom/ccw"
-  version "0.1.51"
+  version "0.1.52"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/justanotheratom/ccw/releases/download/v0.1.51/ccw-darwin-arm64"
-      sha256 "9ebef0ffffc340a94389903ade0dbe4c8ebf70523ffec3dde5c69ffb9ed86175"
+      url "https://github.com/justanotheratom/ccw/releases/download/v0.1.52/ccw-darwin-arm64"
+      sha256 "c4ec506ab74cc6c1b72dc3ff19c8fa925e0a03602c46235fbcda2eb08b234f9d"
     else
-      url "https://github.com/justanotheratom/ccw/releases/download/v0.1.51/ccw-darwin-amd64"
-      sha256 "566ef5c64c9c374bdd2783a16a30bf93c675569014730ae4ad6c1d66bf4d6002"
+      url "https://github.com/justanotheratom/ccw/releases/download/v0.1.52/ccw-darwin-amd64"
+      sha256 "8be53243b4604205054daf04e825b3d8785d0c4b9e006c1a902f9a62496b2e79"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/justanotheratom/ccw/releases/download/v0.1.51/ccw-linux-arm64"
-      sha256 "758ab6393756697552ef4678da9a5d9d823f05c050985e3e48d1767b1b7d90b6"
+      url "https://github.com/justanotheratom/ccw/releases/download/v0.1.52/ccw-linux-arm64"
+      sha256 "f498a306522ff5672bfb1c9aec2005c7445ac111bda00822b94ff262318cb7ba"
     else
-      url "https://github.com/justanotheratom/ccw/releases/download/v0.1.51/ccw-linux-amd64"
-      sha256 "05682d8d4eb455df8a9bd3229f5c2012eab1102ece35208fae145e94f7da9fce"
+      url "https://github.com/justanotheratom/ccw/releases/download/v0.1.52/ccw-linux-amd64"
+      sha256 "486245ba9b105fbfa8be5cffe62108cdd0b7ccdffb99e85ef9b420849d6b2b48"
     end
   end
 
