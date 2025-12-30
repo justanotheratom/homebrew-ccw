@@ -1,6 +1,6 @@
 cask "ccw-menubar" do
-  version "0.1.54"
-  sha256 "f08b473e20a399e226a2ccb3e3d9c3abf725066d55c3ec08d59acb61b03cc257"
+  version "0.1.55"
+  sha256 "bde9f9ed4c4b0e4282c9fb95d663ca618e90494650fb05ce3e9ba171f9d3dc96"
 
   url "https://github.com/justanotheratom/ccw/releases/download/v#{version}/CCWMenubar.dmg"
   name "CCW Menubar"
