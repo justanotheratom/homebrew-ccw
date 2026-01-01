@@ -1,6 +1,6 @@
 cask "ccw" do
-  version "0.1.65"
-  sha256 "2f025df768cc5c42ab11451145377abcd904639f61028fae9a94e4cd192fc839"
+  version "0.1.66"
+  sha256 "dd2fa6e4fd560f17330fcbbd5f93614ad9bab4703c49e2f94eb4b15d66749563"
 
   url "https://github.com/justanotheratom/ccw/releases/download/v#{version}/CCW.dmg"
   name "CCW"
@@ -10,7 +10,7 @@ cask "ccw" do
   depends_on macos: ">= :sonoma"
 
   app "CCW.app"
-  binary "#{appdir}/CCW.app/Contents/MacOS/ccw", target: "ccw"
+  binary "#{appdir}/CCW.app/Contents/Resources/ccw", target: "ccw"
 
   zap trash: [
     "~/.ccw",
