@@ -1,6 +1,6 @@
 cask "ccw" do
-  version "0.1.77"
-  sha256 "93f86efeba814da4809e7585779c57d0f20b995e5a991fbb3b91b835a397072d"
+  version "0.1.78"
+  sha256 "cb0f6d60e47f0104631e28643ac2ebb359cbda374dcd2983813f03c4d6b797d9"
 
   url "https://github.com/justanotheratom/ccw/releases/download/v#{version}/CCW.dmg"
   name "CCW"
